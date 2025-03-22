@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+    <meta charset="UTF-8">
+
+
+    <title>إضافة كتاب</title>
+    <link rel="stylesheet" href="library.css">
+</head>
+<body class="background">
+<header>
+    <h1>مكتبــة الكلاميش</h1>
+    <p>أضف كتابًا جديدًا إلى المكتبة</p>
+</header>
+
+<nav>
+    <a href="yy.html">تواصل معنا</a>
+<a href="add_book.html">اضافة كتاب</a>
+    <a href="books.html">الكتب المميزة</a>
+    <a href="xx.html">الأقسام</a>
+    <a href="library.html">الرئيسية</a>
+</nav>
+
+
+<div class="koko">
+        <form action="add_book.php" method="POST">
+           <label for="title" class="label">عنوان الكتاب:</label>
+        <input type="text" name="title" class="input-field" required><br><br>
+        
+        <label for="author" class="label">اسم المؤلف:</label>
+        <input type="text" name="author" class="input-field" required><br><br>
+        
+        <label for="price" class="label">السعر:</label>
+        <input type="number" name="price" class="input-field" required><br><br>
+        
+        <input type="submit" value="إضافة الكتاب" class="submit-btn">
+  
+        </form>
+   
+</div>
+
+</body>
+</html>
